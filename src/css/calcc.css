@@ -1,0 +1,93 @@
+body{
+    width:100vw;
+    height:100vh;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+.container{
+    width:800px;
+    height:450px;
+    padding:20px;
+    background-color: rgb(241, 215, 237);
+    border-radius: 8px;
+    display:flex;
+}
+.box{
+    width:380px;
+    background-image:url('../assets/bmi.png');
+    background-repeat: no-repeat;
+    background-position:center; 
+}
+.fcalc{
+    flex:1;
+    padding:20px;
+}
+h2{
+    margin-top: 10px;
+    font-weight: 600;
+    color:rgb(109, 100, 228);
+}
+.inputdata{
+    margin-bottom: 5px;
+}
+label{
+    display:block;
+    color:rgb(86, 73, 73);
+    font-size: 18px;
+}
+#inputwt,
+#inputht{
+    width:100%;
+    padding:10px;
+    margin-bottom: 15px;
+    border:none;
+    border-radius:5px;
+    font-size: 14px;
+}
+.calculate{
+    background-color: rgb(234, 234, 240);
+    color:black;
+    border:none;
+    border-radius:5px;
+    padding:10px;
+    cursor:pointer;
+    transition:background-color 0.3s;
+}
+.calculate:hover{
+    background-color: rgb(239, 89, 231);
+    color:rgb(228, 225, 227);
+}
+.result{
+    margin-top:20px;
+    border:1px solid rgb(236, 70, 211);
+    border-radius:5px;
+    padding:10px;
+}
+.result p{
+    margin:10px 0;
+    color:rgb(106, 106, 109);
+}
+.result p:first-child{
+    color:rgb(211, 76, 177);
+    font-weight: bold;
+}
+.error{
+    color:red;
+    font-size: 12px;
+    margin-bottom: 11px;
+}
+.clear{
+    background-color: rgb(234, 234, 240);
+    color:black;
+    border:none;
+    border-radius:5px;
+    padding:10px;
+    cursor:pointer;
+    margin-left: 10px;
+    transition:background-color 0.3s;
+}
+.clear:hover{
+    background-color: rgb(239, 89, 231);
+    color:rgb(228, 225, 227);
+}
